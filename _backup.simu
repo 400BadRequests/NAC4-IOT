@@ -1,0 +1,47 @@
+<circuit Speed_sps="1000000" reactStep="50" noLinAcc="5" type="simulide_0.4" Simu_Step_nS="1000" Speed_per="100" animate="0">
+
+Unique  Id: Node-9: 
+Circuit Id: Node-9
+<item labelx="-16" circPos="0,0" hflip="1" valLabelx="0" x="-320" y="-384" mainComp="false" objectName="Node-9" vflip="1" labelrot="0" rotation="0" itemtype="Node" boardPos="-1e+06,-1e+06" id="Node-9" circRot="-5.4861292803319049e+303" Show_id="false" valLabRot="0" boardRot="-1000000" labely="-24" valLabely="0"/>
+
+Unique  Id: Ground-5: 
+Circuit Id: Ground-5
+<item labelx="-16" circPos="0,0" hflip="1" valLabelx="0" x="-320" y="-268" mainComp="false" objectName="Ground-5" vflip="1" labelrot="0" rotation="0" itemtype="Ground" boardPos="-1e+06,-1e+06" id="Ground-5" circRot="1.0236025586772652e-306" Show_id="false" valLabRot="0" boardRot="-1000000" labely="8" valLabely="0"/>
+
+Unique  Id: Termistor-4: 
+Circuit Id: Termistor-4
+<item Value_Ohm="10000" labelx="-16" circPos="0,0" hflip="1" valLabelx="-16" x="-320" y="-432" mainComp="false" objectName="Termistor-4" R25="10000" vflip="1" labelrot="0" rotation="-90" itemtype="Termistor" boardPos="-1e+06,-1e+06" id="Termistor-4" circRot="-5.8986805820357639e+307" B="3455" Show_id="false" Min_Temp="0" Temp="25" valLabRot="0" boardRot="-1000000" labely="-40" valLabely="30" Max_Temp="200"/>
+
+Unique  Id: Rail-3: 
+Circuit Id: Rail-3
+<item labelx="-16" circPos="0,0" hflip="1" valLabelx="-16" x="-268" y="-496" mainComp="false" objectName="Rail-3" vflip="1" labelrot="0" rotation="-180" itemtype="Rail" boardPos="-1e+06,-1e+06" id="Rail-3" circRot="0" Show_id="false" Voltage="5" valLabRot="0" Unit=" V" Show_Volt="true" boardRot="-1000000" labely="-24" valLabely="8"/>
+
+Unique  Id: Resistor-2: 
+Circuit Id: Resistor-2
+<item labelx="-12" circPos="0,0" hflip="1" valLabelx="-16" x="-320" y="-348" mainComp="false" objectName="Resistor-2" vflip="1" labelrot="0" rotation="-90" itemtype="Resistor" boardPos="-1e+06,-1e+06" id="Resistor-2" circRot="0" Show_id="false" Resistance="10" Show_res="true" valLabRot="0" Unit=" kΩ" boardRot="-1000000" labely="-20" valLabely="6"/>
+
+Unique  Id: Arduino Uno-1: 
+Circuit Id: Arduino Uno-1
+<item Logic_Symbol="false" labelx="100" eeprom="" varList="" circPos="0,0" Init_gdb="false" hflip="1" valLabelx="0" x="-644" y="-432" mainComp="false" objectName="Arduino Uno-1" vflip="1" labelrot="0" rotation="0" itemtype="Arduino" boardPos="-1e+06,-1e+06" Mhz="16" Program="" id="Arduino Uno-1" circRot="1.88923194106121e-183" Show_id="true" valLabRot="0" boardRot="-1000000" labely="-21" valLabely="0" Auto_Load="false"/>
+
+Unique  Id: Connector-6: 
+Circuit Id: Connector-6
+<item labelx="-16" startpinid="Rail-3-outnod" circPos="0,0" hflip="1" valLabelx="0" endpinid="Termistor-4-rPin" x="-284" y="-496" mainComp="false" objectName="Connector-6" vflip="1" labelrot="0" rotation="0" itemtype="Connector" boardPos="-1e+06,-1e+06" id="Connector-6" circRot="0" pointList="-284,-496,-320,-496,-320,-448" Show_id="false" valLabRot="0" boardRot="-1000000" enodeid="enode-6" labely="-24" valLabely="0"/>
+
+Unique  Id: Connector-8: 
+Circuit Id: Connector-8
+<item labelx="-16" startpinid="Resistor-2-lPin" circPos="0,0" hflip="1" valLabelx="0" endpinid="Ground-5-Gnd" x="-320" y="-332" mainComp="false" objectName="Connector-8" vflip="1" labelrot="0" rotation="0" itemtype="Connector" boardPos="-1e+06,-1e+06" id="Connector-8" circRot="0" pointList="-320,-332,-320,-284" Show_id="false" valLabRot="0" boardRot="-1000000" enodeid="enode-8" labely="-24" valLabely="0"/>
+
+Unique  Id: Connector-10: 
+Circuit Id: Connector-10
+<item labelx="-16" startpinid="Node-9-2" circPos="0,0" hflip="1" valLabelx="0" endpinid="Resistor-2-rPin" x="-320" y="-384" mainComp="false" objectName="Connector-10" vflip="1" labelrot="0" rotation="0" itemtype="Connector" boardPos="-1e+06,-1e+06" id="Connector-10" circRot="0" pointList="-320,-384,-320,-364" Show_id="false" valLabRot="0" boardRot="-1000000" enodeid="enode-7" labely="-24" valLabely="0"/>
+
+Unique  Id: Connector-11: 
+Circuit Id: Connector-11
+<item labelx="-16" startpinid="Node-9-1" circPos="0,0" hflip="1" valLabelx="0" endpinid="Arduino Uno-1-PC1" x="-320" y="-384" mainComp="false" objectName="Connector-11" vflip="1" labelrot="0" rotation="0" itemtype="Connector" boardPos="-1e+06,-1e+06" id="Connector-11" circRot="0" pointList="-320,-384,-492,-384" Show_id="false" valLabRot="0" boardRot="-1000000" enodeid="enode-7" labely="-24" valLabely="0"/>
+
+Unique  Id: Connector-7: 
+Circuit Id: Connector-7
+<item labelx="-16" startpinid="Termistor-4-lPin" circPos="0,0" hflip="1" valLabelx="0" endpinid="Node-9-0" x="-320" y="-416" mainComp="false" objectName="Connector-7" vflip="1" labelrot="0" rotation="0" itemtype="Connector" boardPos="-1e+06,-1e+06" id="Connector-7" circRot="0" pointList="-320,-416,-320,-384" Show_id="false" valLabRot="0" boardRot="-1000000" enodeid="enode-7" labely="-24" valLabely="0"/>
+ 
+</circuit>
