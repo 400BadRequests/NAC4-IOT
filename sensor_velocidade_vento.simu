@@ -1,0 +1,31 @@
+<circuit type="simulide_0.4" animate="0" reactStep="50" Speed_sps="1000000" Simu_Step_nS="1000" Speed_per="100" noLinAcc="5">
+
+Unique  Id: Node-27: 
+Circuit Id: Node-27
+<item y="-396" labelx="-16" valLabRot="0" objectName="Node-27" vflip="1" itemtype="Node" valLabely="0" boardRot="-1000000" mainComp="false" circRot="-5.4861292803319049e+303" valLabelx="0" labelrot="0" hflip="1" labely="-24" circPos="0,0" x="-588" boardPos="-1e+06,-1e+06" Show_id="false" id="Node-27" rotation="0"/>
+
+Unique  Id: Frequencimeter-3: 
+Circuit Id: Frequencimeter-3
+<item y="-488" labelx="-32" valLabRot="0" objectName="Frequencimeter-3" vflip="1" itemtype="Frequencimeter" valLabely="0" boardRot="-1000000" mainComp="false" circRot="1.2731974745791634e-313" valLabelx="0" labelrot="0" hflip="1" labely="-24" circPos="0,0" x="-548" boardPos="-1e+06,-1e+06" Show_id="false" id="Frequencimeter-3" rotation="0"/>
+
+Unique  Id: Clock-2: 
+Circuit Id: Clock-2
+<item y="-396" labelx="-64" valLabRot="0" objectName="Clock-2" vflip="1" itemtype="Clock" valLabely="8" boardRot="-1000000" mainComp="false" circRot="4.9756046038107499e+180" valLabelx="-16" labelrot="0" Out="false" hflip="1" Voltage="5" labely="-24" Unit=" V" Running="false" circPos="0,0" x="-616" boardPos="-1e+06,-1e+06" Freq="1000" Show_Volt="true" Show_id="false" id="Clock-2" rotation="0"/>
+
+Unique  Id: Arduino Uno-1: 
+Circuit Id: Arduino Uno-1
+<item y="-428" labelx="100" valLabRot="0" varList="" objectName="Arduino Uno-1" Auto_Load="false" vflip="1" itemtype="Arduino" Mhz="16" Program="" valLabely="0" boardRot="-1000000" eeprom="" mainComp="false" circRot="0" valLabelx="0" labelrot="0" hflip="1" labely="-21" Logic_Symbol="false" circPos="0,0" x="-544" boardPos="-1e+06,-1e+06" Init_gdb="false" Show_id="true" id="Arduino Uno-1" rotation="0"/>
+
+Unique  Id: Connector-4: 
+Circuit Id: Connector-4
+<item y="-396" labelx="-16" startpinid="Clock-2-outnod" valLabRot="0" objectName="Connector-4" vflip="1" itemtype="Connector" valLabely="0" boardRot="-1000000" endpinid="Node-27-0" mainComp="false" circRot="0" valLabelx="0" labelrot="0" hflip="1" labely="-24" circPos="0,0" x="-600" boardPos="-1e+06,-1e+06" pointList="-600,-396,-588,-396" Show_id="false" id="Connector-4" rotation="0" enodeid="enode-26"/>
+
+Unique  Id: Connector-26: 
+Circuit Id: Connector-26
+<item y="-488" labelx="-16" startpinid="Frequencimeter-3-lPin" valLabRot="0" objectName="Connector-26" vflip="1" itemtype="Connector" valLabely="0" boardRot="-1000000" endpinid="Node-27-1" mainComp="false" circRot="0" valLabelx="0" labelrot="0" hflip="1" labely="-24" circPos="0,0" x="-588" boardPos="-1e+06,-1e+06" pointList="-588,-488,-588,-396" Show_id="false" id="Connector-26" rotation="0" enodeid="enode-26"/>
+
+Unique  Id: Connector-28: 
+Circuit Id: Connector-28
+<item y="-396" labelx="-16" startpinid="Node-27-2" valLabRot="0" objectName="Connector-28" vflip="1" itemtype="Connector" valLabely="0" boardRot="-1000000" endpinid="Arduino Uno-1-PD2" mainComp="false" circRot="0" valLabelx="0" labelrot="0" hflip="1" labely="-24" circPos="0,0" x="-588" boardPos="-1e+06,-1e+06" pointList="-588,-396,-536,-396" Show_id="false" id="Connector-28" rotation="0" enodeid="enode-26"/>
+ 
+</circuit>
