@@ -1,0 +1,97 @@
+[
+  {
+    "id": "aa807534.230218",
+    "type": "tab",
+    "label": "Flow 4",
+    "disabled": false,
+    "info": ""
+  },
+  {
+    "id": "81e89139.cf753",
+    "type": "twitter in",
+    "z": "aa807534.230218",
+    "twitter": "",
+    "tags": "@Gabriel26886949",
+    "user": "user",
+    "name": "Tweets",
+    "inputs": 1,
+    "x": 170,
+    "y": 320,
+    "wires": [
+      [
+        "9f003952.b2ee38"
+      ]
+    ]
+  },
+  {
+    "id": "9f003952.b2ee38",
+    "type": "function",
+    "z": "aa807534.230218",
+    "name": "recebe_tweet",
+    "func": "msg.payload = msg.twitter;\nreturn msg;",
+    "outputs": 1,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 430,
+    "y": 320,
+    "wires": [
+      [
+        "e9d777ee.95ca28"
+      ]
+    ]
+  },
+  {
+    "id": "e9d777ee.95ca28",
+    "type": "debug",
+    "z": "aa807534.230218",
+    "name": "",
+    "active": true,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "payload",
+    "targetType": "msg",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 670,
+    "y": 320,
+    "wires": []
+  },
+  {
+    "id": "b5b68787.0e2e48",
+    "type": "twitter out",
+    "z": "aa807534.230218",
+    "twitter": "",
+    "name": "Tweet",
+    "x": 540,
+    "y": 520,
+    "wires": []
+  },
+  {
+    "id": "e7ae7177.b7af9",
+    "type": "inject",
+    "z": "aa807534.230218",
+    "name": "",
+    "props": [
+      {
+        "p": "payload"
+      }
+    ],
+    "repeat": "",
+    "crontab": "",
+    "once": false,
+    "onceDelay": 0.1,
+    "topic": "",
+    "payload": "\"Odeio proagramar\"",
+    "payloadType": "str",
+    "x": 230,
+    "y": 520,
+    "wires": [
+      [
+        "b5b68787.0e2e48"
+      ]
+    ]
+  }
+]
