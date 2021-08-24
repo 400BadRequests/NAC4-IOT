@@ -3,50 +3,39 @@
 Esse é um guia simples, o grupo pode e deve modificar o template conforme necessidade. 
 
 # Nome do projeto
+NAC 04 -  IOT
 
-**nome dos alunos:** 
+**nome dos alunos:**
+Luiz Phelipe - 86330
+Christian Chang - 86360
+Paulo Sérgio- 85873
+Gabriel Silva - 86404
+Caio Augusto - 82953
 
 **Turma:**
+2TDSJ
 
 **Ano:**
+2021
 
 ## Objetivo / descrição do Projeto
-
-Explique de forma clara qual o objeto deste projeto, para que serve e comente as principais tecnologias utilizadas. 
+Projeto dedicado a NAC 04, da materia de IOT do curso de analise e desenvolvimento de sistemas. Suas caracteristicas: Leitura de três sensores LDR(luminosidade), termistor(Temperatura) e Gerador de função(Frequencia), enviados via comunicação serial e postados em um topico MQTT, recuperados e salvos em um banco de dados na nuvem usando o serviço da ibm cloudant e por final caso a velocidade do vento seja maior que 80 km/h será postado um tweet no twitter avisando sobre.  
 
 ## Diagrama do projeto
 
 Adicione uma ou mais fotos do projeto, pode ser uma imagem da arquitetura, do circuito eletrônico do Flow desenvolvido. 
-
-<img src="/imagem.jpg" width="550">
+![image](https://user-images.githubusercontent.com/58408056/130545174-21f1f9f2-7ee5-42cd-bf26-00e4c8ba2cf3.png)
+![image](https://user-images.githubusercontent.com/58408056/130545191-d421157a-621a-462c-b218-80c1fbfb1050.png)
+![image](https://user-images.githubusercontent.com/58408056/130545216-2734ea3d-1f23-4011-a868-e05421228582.png)
 
 
 ## Como usar 
 
-Explique como rodar o seu projeto. Quais programas instalar, como configurar... 
-
-* Pode ser utilizado marcadores
-* Para ajudar na formatação
-
-Ou qualquer outra tabulação:
-
-- [x] Youtube
-- [ ] Facebook 
-- [x] Instagram
-
-Pode adicionar algum trecho de código, por exemplo para clonar esse repositório:
-
-    cd /home/iot
-    git clone https://github.com/arnaldojr/templatenac
-    cd templatenac
-    ls
+Será necessario instalar o simulide, arduino, nodejs, node-red, junto com as bibliotecas de comunicação serial, mqtt e twitter
 
 
 ## Link de vídeo demonstração
-
-Adicione o link para assistir ao vídeo do projeto funcionando.
-
-[Link para o video youtube](https://www.youtube.com/watch?v=xva71wynxS0)
+https://youtu.be/EH22xWWueVk
 
 
 ### Referências 
