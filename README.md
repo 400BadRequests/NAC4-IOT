@@ -30,7 +30,9 @@ Adicione uma ou mais fotos do projeto, pode ser uma imagem da arquitetura, do ci
 
 ## Como usar 
 
-Será necessario instalar o simulide, arduino, nodejs, node-red, junto com as bibliotecas de comunicação serial, mqtt e twitter
+Será necessario instalar o simulide, arduino, nodejs, node-red, junto com as bibliotecas de comunicação serial, mqtt e twitter.
+Fazer copia do texto do arquivo node-red-json.txt e exportar no node-red.
+Após fazer a instalação das libs necessárias
 
 
 ## Link de vídeo demonstração
