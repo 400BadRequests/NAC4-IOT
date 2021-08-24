@@ -6,10 +6,10 @@ Esse é um guia simples, o grupo pode e deve modificar o template conforme neces
 NAC 04 -  IOT
 
 **nome dos alunos:**
-Luiz Phelipe - 86330
-Christian Chang - 86360
-Paulo Sérgio- 85873
-Gabriel Silva - 86404
+Luiz Phelipe - 86330,
+Christian Chang - 86360,
+Paulo Sérgio- 85873,
+Gabriel Silva - 86404 e 
 Caio Augusto - 82953
 
 **Turma:**
