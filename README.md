@@ -26,9 +26,9 @@ Projeto dedicado a NAC 04, da materia de IOT do curso de analise e desenvolvimen
 Adicione uma ou mais fotos do projeto, pode ser uma imagem da arquitetura, do circuito eletrônico do Flow desenvolvido. 
 <br><h3>Circuito eletrônico<br>
 ![image](https://user-images.githubusercontent.com/58408056/130545174-21f1f9f2-7ee5-42cd-bf26-00e4c8ba2cf3.png)<br>
-<br><h5>Fluxo Node-Red <br>
+<br><h3>Fluxo Node-Red <br>
 ![image](https://user-images.githubusercontent.com/58408056/130545191-d421157a-621a-462c-b218-80c1fbfb1050.png)<br>
-<br>#Dashboard Node-Red UI<br>
+<br><h3>Dashboard Node-Red UI<br>
 ![image](https://user-images.githubusercontent.com/58408056/130545216-2734ea3d-1f23-4011-a868-e05421228582.png)<br>
 
 
